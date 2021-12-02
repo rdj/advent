@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-$lines = ARGF.readlines.map(&:chomp)#.map(&:to_i(10))
+$lines = ARGF.readlines.map(&:chomp)#.map{|s| s.to_i(10)}
